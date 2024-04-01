@@ -3,6 +3,7 @@ package Phuong.com.javabasic.PhuongThuc;
 public class PhuongThucCoThamSo {
     static float INTEREST_RATE = 7.3F;
     public static double tinhlai(long soTienGui){
+
         return((soTienGui * INTEREST_RATE)/100);
     }
     public static double cong2so(double number1, double number2){
